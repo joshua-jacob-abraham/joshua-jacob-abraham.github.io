@@ -231,10 +231,10 @@ html {
   }
 }
 
-/* html,
+html,
 body {
   overflow-x: hidden;
-} */
+}
 
 /* Scrollbar width */
 ::-webkit-scrollbar {
