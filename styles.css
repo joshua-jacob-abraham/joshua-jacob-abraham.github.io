@@ -198,6 +198,7 @@ footer {
 }
 
 html {
+  font-size: 12px !important;
   -webkit-text-size-adjust: 100%;
 }
 
