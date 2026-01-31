@@ -1,0 +1,196 @@
+body {
+  background-color: #f0eede;
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  outline: none;
+  color: #49503e;
+  user-select: none;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  padding: 2rem 4rem;
+  padding-bottom: 0rem;
+  margin-bottom: 2rem;
+}
+
+.profile-image {
+  width: 600px;
+  user-select: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: 1px solid #49503e;
+}
+
+.btn-outline-dark:hover {
+  background-color: #8e9c78;
+}
+
+.name {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8rem;
+  padding-left: 0.3rem;
+}
+
+#intro {
+  height: 90vh;
+  margin-bottom: 6rem;
+}
+
+.carousel-box {
+  border: 0px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.482);
+}
+
+ul {
+  list-style-type: none;
+}
+
+#projects ul li::before {
+  content: "-";
+  margin-right: 8px;
+  color: #49503e;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 1140px;
+  }
+}
+
+.feats-list {
+  padding-left: 0;
+}
+
+.feats-list li {
+  padding-left: 1.2em;
+  text-indent: -1.2em;
+}
+
+.feats-list li::before {
+  content: "-";
+  margin-right: 0.6em;
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) {
+  .proj-desc {
+    padding-left: 3rem;
+  }
+}
+
+@media (max-width: 991.8px) {
+  .profile-image {
+    width: 450px;
+  }
+}
+
+@media (max-width: 767.8px) {
+  .profile-image {
+    width: 400px;
+  }
+}
+
+@media (max-width: 575.8px) {
+  .profile-image {
+    width: 360px;
+  }
+
+  .container {
+    padding-top: 0px !important;
+  }
+
+  #intro .row {
+    padding-top: 0px !important;
+  }
+
+  .navbar {
+    padding-left: 3rem;
+  }
+}
+
+.section-title {
+  margin-bottom: 2rem;
+}
+
+#projects, #work, #contact {
+  margin-bottom: 3rem;
+}
+
+footer {
+  border: 1px solid #49503ecb;
+  margin-bottom: 0px !important;
+}
+
+.insta {
+  opacity: 60%;
+}
+
+.alter-ego {
+  text-decoration: none;
+  outline: none;
+  color: #49503e;
+  user-select: none;
+}
+
+@media (max-width: 575px){
+  #contact button {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+  }
+}
+
+@media (min-width: 992px){
+  #contact button {
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+  }
+}

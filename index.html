@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a class="link" href="#projects">Projects</a></li>
+        <li><a class="link" href="#work">Work</a></li>
+        <li><a class="link" href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="social-links">
+        <a
+          href="https://github.com/joshua-jacob-abraham"
+          target="_blank"
+          rel="noopener"
+          class="link"
+          >Github</a
+        >
+        <a
+          href="https://www.linkedin.com/in/joshua-jacob-abraham/"
+          target="_blank"
+          rel="noopener"
+          class="link"
+          >Linked-In</a
+        >
+      </div>
+    </nav>
+
+    <section id="intro">
+      <div class="container col-xxl-8 px-5 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6 mt-0">
+            <img
+              src="./assets/profileImage.png"
+              class="d-block mx-lg-auto img-fluid profile-image"
+              alt="profile image"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              hi! i am <span class="name">joshua</span>
+            </h1>
+            <p class="lead">
+              Third-year B.Tech student in Computer Science Engineering at the
+              National Institute of Technology, Calicut. Passionate about
+              scalable and robust systems, inter-system communications, and
+              system design. Strong foundation in operating systems, compiler
+              design, computer networks, and algorithms. Experienced in Python,
+              C++, and JavaScript, with familiarity in React.js, Electron,
+              Node.js, and FastAPI.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button
+                type="button"
+                class="btn btn-outline-dark btn-lg px-4 me-md-2"
+              >
+                Download Resume
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container px-5">
+        <div class="row">
+          <div class="col-12 text-end">
+            <h2 class="mb-5 fs-1 text-decoration-underline proj-title">
+              Projects
+            </h2>
+          </div>
+        </div>
+        <div class="row d-flex flex-row">
+          <div class="col-12 col-lg-7 carousel-box px-0 mb-5">
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <img
+                    src="./assets/project-1/home.png"
+                    class="d-block w-100"
+                    alt="project-1-home"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/project-1/dash.png"
+                    class="d-block w-100"
+                    alt="project-1-dash"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/project-1/add-new.png"
+                    class="d-block w-100"
+                    alt="project-1-add-new"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/project-1/return.png"
+                    class="d-block w-100"
+                    alt="project-1-return"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/project-1/view.png"
+                    class="d-block w-100"
+                    alt="project-1-view"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/project-1/search-by-code.png"
+                    class="d-block w-100"
+                    alt="project-1-code"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 proj-desc">
+            <h3 class="mb-2">Inventory Manager</h3>
+            <p class="fs-5 text-justify">
+              Designed and developed and inventory manager desktop application
+              using ReactJS for frontend, python + FastAPI for backend, MySQL
+              for the database. Converted to desktop app using ElectronJS.
+            </p>
+            <h4>Feats:</h4>
+            <ul class="fs-5 ps-1 feats-list">
+              <li>Export reports as excel and PDF.</li>
+              <li>Efficient item search by code.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container px-5">
+        <div class="row d-flex flex-row">
+          <div class="col-12 text-end">
+            <h2 class="mb-5 fs-1 text-decoration-underline section-title">
+              Work
+            </h2>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-space-between">
+          <h3 class="mb-2">
+            Web Developer Intern at NIT Calicut Alumni Association Summer
+            Internship Program
+          </h3>
+          <p>july, 2024 - february, 2025</p>
+          <p class="fs-5 text-justify">
+            Collaborated in designing and developing a mentorship platform to
+            connect students with alumni who work in their fields of interest.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container px-5">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <h2 class="my-2">Let's connect<span class="fs-5">+</span></h2>
+          </div>
+
+          <div class="col-6 text-end">
+            <button class="btn btn-outline-dark px-5">Drop an email</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container-fluid mt-5 px-0">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-2 mt-4"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="text-body-secondary ps-3"
+              >© 2026
+              <a
+                href="abraham.html"
+                class="alter-ego"
+                target="_blank"
+                rel="noopener"
+                >Abraham</a
+              ></span
+            >
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://www.instagram.com/__joshhuaaa/"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  class="pe-3 insta"
+                  src="./assets/instagram.svg"
+                  alt="instagram"
+                  height="20"
+                />
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
