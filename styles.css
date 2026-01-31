@@ -59,8 +59,7 @@ html {
 }
 
 #intro {
-  height: 90vh;
-  margin-bottom: 6rem;
+  height: 90dvh;
 }
 
 .carousel-box {
@@ -96,6 +95,10 @@ ul {
   .container-md,
   .container-sm {
     max-width: 1140px;
+  }
+
+  #intro {
+    margin-bottom: 6rem;
   }
 }
 
@@ -142,14 +145,6 @@ ul {
 @media (max-width: 575.8px) {
   .profile-image {
     width: 360px;
-  }
-
-  .container {
-    padding-top: 0px !important;
-  }
-
-  #intro .row {
-    padding-top: 0px !important;
   }
 
   .navbar {
@@ -206,5 +201,25 @@ html {
 @media (max-width: 767.8px) {
   .text-justify {
     text-align: left;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .profile-image {
+    position: static;
+  }
+
+  #intro .container {
+    padding-right: 0;
+  }
+
+  #intro img {
+    width: 100vw;
+    max-width: none;
+    margin-left: auto;
+  }
+
+  #intro {
+    height: auto;
   }
 }
