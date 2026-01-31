@@ -199,7 +199,8 @@ footer {
 
 html {
   font-size: 12px !important;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 @media (max-width: 767.8px) {
