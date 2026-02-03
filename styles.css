@@ -4,6 +4,7 @@ body {
   font-weight: 400;
   font-style: normal;
   user-select: none;
+  margin: 0;
 }
 
 html {
@@ -59,7 +60,8 @@ html {
 }
 
 #intro {
-  height: 90dvh;
+  height: 90vh;
+  height: 90svh;
 }
 
 .carousel-box {
@@ -198,12 +200,6 @@ html {
   text-size-adjust: none;
 }
 
-@media (max-width: 767.8px) {
-  .text-justify {
-    text-align: left;
-  }
-}
-
 @media (max-width: 575.98px) {
   #intro {
     display: grid;
@@ -234,6 +230,7 @@ html {
 html,
 body {
   overflow-x: hidden;
+  padding: 0;
 }
 
 /* Scrollbar width */
@@ -292,5 +289,16 @@ body {
   #intro .col-sm-8 {
     padding-right: 0 !important;
     max-width: 100%;
+  }
+}
+
+@media (max-width: 376px) {
+  .view {
+    padding-right: 4rem;
+  }
+
+  .lead {
+    padding-right: 4rem;
+    text-align: justify;
   }
 }
